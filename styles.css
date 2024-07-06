@@ -354,6 +354,10 @@ section {
     flex-direction: column;
 }
 
+.experience-sub-title {
+    margin-bottom: 2rem;
+}
+
 .article-container {
     color: black;
     display: flex;
