@@ -57,6 +57,19 @@
   }
 }
 
+@media screen and (max-width: 991px) {
+  .videos-container {
+    grid-template-columns: 1.5fr 1fr;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .videos-container {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media screen and (max-width: 600px) {
 
   #contact,
@@ -109,7 +122,7 @@
 
   .section__pic-container {
     width: auto;
-    height: 46vw; 
+    height: 46vw;
     justify-content: center;
   }
 

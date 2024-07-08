@@ -54,8 +54,8 @@
             <div id="socials-container">
                 <img src="./assets/twitter.png" alt="My Twitter profile" class="icon"
                     onclick="window.open('https://twitter.com/Sarchyx_')" />
-                <img src="./assets/github.png" alt="My Github profile" class="icon"
-                    onclick="window.open('https://github.com/Sarchyx')" />
+                <img src="./assets/youtube.png" alt="My Github profile" class="icon"
+                    onclick="window.open('about:blank')"/>
             </div>
         </div>
     </section>
@@ -79,7 +79,7 @@
                         I've been programming since 2017 (7 years ago) in the Roblox Studio game engine,
                         since 2022 (2 years ago) in the Unity game engine and I plan to develop in Unreal Engine in the
                         future.
-                        I currently live in Bogotá DC, Colombia and I speak both spanish and english.
+                        I currently live in Bogotá DC, Colombia and I fluently speak both english and spanish.
                     </p>
                 </div>
             </div>
@@ -91,27 +91,48 @@
         <div class="experience-details-container">
             <div class="about-containers">
                 <div class="details-container">
-                    <h2 class="experience-sub-title">Game Programming</h2>
+                    <h2 class="experience-sub-title">Roblox</h2>
                     <div class="article-container">
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
                             <div>
-                                <h3>Lua(U)</h3>
-                                <p>Experienced</p>
+                                <h3>LuaU</h3>
+                                <p>Language</p>
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
                             <div>
-                                <h3>C#</h3>
-                                <p>Intermediate</p>
+                                <h3>Knit</h3>
+                                <p>Framework</p>
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
                             <div>
-                                <h3>C++</h3>
-                                <p>Intermediate</p>
+                                <h3>Roact</h3>
+                                <p>Framework</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>DataStore2</h3>
+                                <p>Framework</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>ZonePlus</h3>
+                                <p>Framework</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>ProfileService</h3>
+                                <p>Framework</p>
                             </div>
                         </article>
                     </div>
@@ -123,28 +144,56 @@
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
                             <div>
                                 <h3>Python</h3>
-                                <p>Experienced</p>
+                                <p>Language</p>
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
                             <div>
                                 <h3>JS/TS</h3>
-                                <p>Experienced</p>
+                                <p>Language</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>C#</h3>
+                                <p>Language</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>C++</h3>
+                                <p>Language</p>
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
                             <div>
                                 <h3>HTML</h3>
-                                <p>Basic</p>
+                                <p>Language</p>
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
                             <div>
                                 <h3>CSS</h3>
-                                <p>Basic</p>
+                                <p>Language</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Node (JS)</h3>
+                                <p>Framework</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>React (JS)</h3>
+                                <p>Framework</p>
                             </div>
                         </article>
                     </div>
@@ -156,18 +205,69 @@
 
     <section id="projects">
         <h1 class="title">Roblox Showcase</h1>
-        <div class="video-container">
-            <video id="videoPlayer" width="640" height="360" controls>
-                <source id="videoSource" src="./assets/video1.mp4" type="video/mp4">
-                Your browser doesn't support video reproducing.
-            </video>
 
-            <div class="video-controls">
-                <button onclick="changeVideo('prev')">&lt;</button>
-                <button onclick="changeVideo('next')">&gt;</button>
+        <h2 class="sub-title">• Videos</h2>
+        <div class="videos-container">
+            <div class="main-video">
+                <video src="./assets/animals-rng.mp4" controls muted autoplay></video>
+                <h3 class="video-title">1. Animals RNG</h3>
+            </div>
+            <p class="icon arrow" onclick="location.href='./#contact'">&#x2193;</p>
+    
+            <div class="video-list">
+                <div class="vid active">
+                    <video src="./assets/animals-rng.mp4" muted ></video>
+                    <h3 class="video-title">1. Animals RNG</h3>
+                </div>
+                <div class="vid">
+                    <video src="./assets/dealership.mp4" muted ></video>
+                    <h3 class="video-title">2. Car Dealership</h3>
+                </div>
+                <div class="vid">
+                    <video src="./assets/xmas.mp4" muted ></video>
+                    <h3 class="video-title">3. Xmas Showcase</h3>
+                </div>
+                <div class="vid">
+                    <video src="./assets/cube-climbing.mp4" muted ></video>
+                    <h3 class="video-title">4. Climbing Game</h3>
+                </div>
+                <div class="vid">
+                    <video src="./assets/menu.mp4" muted ></video>
+                    <h3 class="video-title">5. Main Menu</h3>
+                </div>
+                <div class="vid">
+                    <video src="./assets/inventory.mp4" muted ></video>
+                    <h3 class="video-title">6. Draggable Inventory</h3>
+                </div>
+                <div class="vid">
+                    <video src="./assets/placement.mp4" muted ></video>
+                    <h3 class="video-title">7. Placement System</h3>
+                </div>
+                <div class="vid">
+                    <video src="./assets/bezier.mp4" muted ></video>
+                    <h3 class="video-title">8. Bezier Curves</h3>
+                </div>
+                <div class="vid">
+                    <video src="./assets/ik.mp4" muted ></video>
+                    <h3 class="video-title">9. Inverse Kinematics</h3>
+                </div>
+                <div class="vid">
+                    <video src="./assets/tornado.mp4" muted ></video>
+                    <h3 class="video-title">10. Trigonometry Tornado</h3>
+                </div>
+                <div class="vid">
+                    <video src="./assets/intro.mp4" muted ></video>
+                    <h3 class="video-title">11. Intro</h3>
+                </div>
             </div>
         </div>
-        <p class="icon arrow" onclick="location.href='./#contact'">&#x2193;</p>
+
+        <h2 class="sub-title">• Modules</h2>
+        <div class="modules-container">
+            <p class="module-link-p">Python OOP <a href="https://create.roblox.com/store/asset/18330857291/" target="_blank" class="module-link">(link)</a></p>
+            <p class="module-link-p">Interpolator <a href="https://create.roblox.com/store/asset/7228656891/" target="_blank" class="module-link">(link)</a></p>
+            <p class="module-link-p">R6/R15 Resizer <a href="https://create.roblox.com/store/asset/8350604279/" target="_blank" class="module-link">(link)</a></p>
+        </div>
     </section>
 
     <section id="contact">
@@ -175,15 +275,15 @@
         <div class="contact-info-upper-container">
             <div class="contact-info-container">
                 <img src="./assets/discord.png" alt="Discord icon" class="icon contact-icon" />
-                <p><a href="https://discord.com/channels/@me">sarchyx6</a></p>
+                <p><a href="https://discord.com/channels/@me" target="_blank">sarchyx6</a></p>
             </div>
             <div class="contact-info-container">
                 <img src="./assets/Roblox Studio.png" alt="Roblox Studio icon" class="icon contact-icon" />
-                <p><a href="https://devforum.roblox.com/u/sarchyx/summary">Sarchyx</a></p>
+                <p><a href="https://devforum.roblox.com/u/sarchyx/summary" target="_blank">Sarchyx</a></p>
             </div>
             <div class="contact-info-container">
                 <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
-                <p><a href="mailto:sarchyx6@gmail.com">sarchyx6@gmail.com</a></p>
+                <p><a href="https://gmail.com" target="_blank">sarchyx6@gmail.com</a></p>
             </div>
         </div>
     </section>
