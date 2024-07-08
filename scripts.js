@@ -2,7 +2,7 @@ let listVideos = document.querySelectorAll('.video-list .vid')
 let mainVideo = document.querySelector('.main-video video')
 let title = document.querySelector('.main-video .video-title')
 
-let currentVideo = null
+let currentVideo = listVideos[0]
 
 function toggleMenu() {
     const menu = document.querySelector(".menu-links");
