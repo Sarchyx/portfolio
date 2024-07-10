@@ -209,61 +209,14 @@
         <h2 class="sub-title">• Videos</h2>
         <div class="videos-container">
             <div class="main-video">
-                <video src="./assets/animals-rng.mp4" controls muted autoplay></video>
-                <h3 class="video-title">1. Animals RNG</h3>
+                <video src="./assets/animals-rng.mp4" id="main-video" controls muted autoplay></video>
+                <h3 class="video-title" id="video-title">1. Animals RNG</h3>
             </div>
             <p class="icon arrow" onclick="location.href='./#contact'">&#x2193;</p>
     
-            <div class="video-list">
-                <div class="vid active">
-                    <video src="./assets/animals-rng.mp4" muted ></video>
-                    <h3 class="video-title">1. Animals RNG</h3>
-                </div>
-                <div class="vid">
-                    <video src="./assets/dealership.mp4" muted ></video>
-                    <h3 class="video-title">2. Car Dealership</h3>
-                </div>
-                <div class="vid">
-                    <video src="./assets/xmas.mp4" muted ></video>
-                    <h3 class="video-title">3. Xmas Showcase</h3>
-                </div>
-                <div class="vid">
-                    <video src="./assets/cube-climbing.mp4" muted ></video>
-                    <h3 class="video-title">4. Climbing Game</h3>
-                </div>
-                <div class="vid">
-                    <video src="./assets/customization.mp4" muted ></video>
-                    <h3 class="video-title">5. Car Customization</h3>
-                </div>
-                <div class="vid">
-                    <video src="./assets/menu.mp4" muted ></video>
-                    <h3 class="video-title">6. Menu UI Animations</h3>
-                </div>
-                <div class="vid">
-                    <video src="./assets/inventory.mp4" muted ></video>
-                    <h3 class="video-title">7. Draggable Inventory</h3>
-                </div>
-                <div class="vid">
-                    <video src="./assets/reward.mp4" muted ></video>
-                    <h3 class="video-title">8. Reward VFX</h3>
-                </div>
-                <div class="vid">
-                    <video src="./assets/ik.mp4" muted ></video>
-                    <h3 class="video-title">9. Inverse Kinematics</h3>
-                </div>
-                <div class="vid">
-                    <video src="./assets/tornado.mp4" muted ></video>
-                    <h3 class="video-title">10. Trigonometry Tornado</h3>
-                </div>
-                <div class="vid">
-                    <video src="./assets/intro.mp4" muted ></video>
-                    <h3 class="video-title">11. Intro</h3>
-                </div>
-                <div class="vid">
-                    <video src="./assets/placement.mp4" muted ></video>
-                    <h3 class="video-title">12. Placement System</h3>
-                </div>
-            </div>
+            <div class="video-list" id="video-list">
+				<!--Se generan los videos automáticamente-->
+			</div>                
         </div>
 
         <h2 class="sub-title">• Modules</h2>
