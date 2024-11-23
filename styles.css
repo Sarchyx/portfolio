@@ -509,6 +509,7 @@ article .icon {
     justify-content: center;
     flex-direction: column;
     height: 190vh;
+	scroll-margin-top: -550px;
 }
 
 .contact-info-upper-container {
