@@ -2,6 +2,8 @@
 
 let videos = [
 	{ src: './assets/animals-rng.mp4', title: 'Animals RNG' },
+	{ src: './assets/simon.mp4', title: 'Simon Game' },
+	{ src: './assets/first-person-mechs.mp4', title: 'FP Mechanics' },
 	{ src: './assets/dealership.mp4', title: 'Car Dealership' },
 	{ src: './assets/inventory.mp4', title: 'Draggable Inventory' },
 	{ src: './assets/cube-climbing.mp4', title: 'Climbing Game' },
