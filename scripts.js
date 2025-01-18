@@ -1,9 +1,14 @@
 // Videos
 
 let videos = [
+	{ src: './assets/lazer-puzzle.mp4', title: 'Lazer Puzzle' },
+	{ src: './assets/merge-game.mp4', title: 'Merge Game' },
+	{ src: './assets/spell-drawings.mp4', title: 'Spell Drawings' },
 	{ src: './assets/animals-rng.mp4', title: 'Animals RNG' },
-	{ src: './assets/simon.mp4', title: 'Simon Game' },
+	{ src: './assets/simon.mp4', title: 'Simon Minigame' },
+	{ src: './assets/blood-iron.mp4', title: 'Blood & Iron Core' },
 	{ src: './assets/first-person-mechs.mp4', title: 'FP Mechanics' },
+	{ src: './assets/terror-ai.mp4', title: 'Terror AI' },
 	{ src: './assets/dealership.mp4', title: 'Car Dealership' },
 	{ src: './assets/inventory.mp4', title: 'Draggable Inventory' },
 	{ src: './assets/cube-climbing.mp4', title: 'Climbing Game' },
@@ -11,10 +16,10 @@ let videos = [
 	{ src: './assets/menu.mp4', title: 'Menu UI Animations' },
 	{ src: './assets/xmas.mp4', title: 'Xmas Showcase' },
 	{ src: './assets/angle-calculator.mp4', title: 'Angle Calculator' },
-	{ src: './assets/reward.mp4', title: 'Reward Animation' },
-	{ src: './assets/ik.mp4', title: 'Inverse Kinematics' },
-	{ src: './assets/tornado.mp4', title: 'Trigonometry Tornado' },
 	{ src: './assets/intro.mp4', title: 'Intro' },
+	{ src: './assets/ik.mp4', title: 'Inverse Kinematics' },
+	{ src: './assets/reward.mp4', title: 'Reward Animation' },
+	{ src: './assets/tornado.mp4', title: 'Trigonometry Tornado' },
 	{ src: './assets/placement.mp4', title: 'Placement System' }
 ];
 
