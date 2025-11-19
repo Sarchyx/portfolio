@@ -40,7 +40,7 @@ function renderVideos() {
         // Añadir evento de clic al contenedor del video
         videoDiv.addEventListener('click', () => {
             mainVideo.src = video.src;
-            mainVideoTitle.textContent = `${index+1}. ${video.title}`;
+            mainVideoTitle.textContent = `${video.title}`;
             document.querySelectorAll('.vid').forEach(v => v.classList.remove('active'));
             videoDiv.classList.add('active');
         });
