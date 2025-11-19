@@ -47,7 +47,7 @@ function renderVideos() {
 
         const videoTitle = document.createElement('h3');
         videoTitle.classList.add('video-title');
-        videoTitle.textContent = `${index+1}. ${video.title}`;
+        videoTitle.textContent = `${video.title}`;
 
         videoDiv.appendChild(videoElement);
         videoDiv.appendChild(videoTitle);
