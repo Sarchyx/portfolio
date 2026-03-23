@@ -3,6 +3,7 @@
 let videos = [
 	{ src: './assets/animals-rng.mp4', title: 'Animals RNG' },
 	{ src: './assets/merge-game.mp4', title: 'Merge Game' },
+    { src: './assets/gamepass-gifts.mp4', title: 'Gamepass Gifts' },
 	{ src: './assets/dealership.mp4', title: 'Car Dealership' },
 	{ src: './assets/customization.mp4', title: 'Car Customization' },
     { src: './assets/inventory.mp4', title: 'Draggable Inventory' },
