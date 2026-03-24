@@ -6,6 +6,7 @@ let videos = [
     { src: './assets/gamepass-gifts.mp4', title: 'Gamepass Gifts' },
 	{ src: './assets/dealership.mp4', title: 'Car Dealership' },
 	{ src: './assets/customization.mp4', title: 'Car Customization' },
+    { src: './assets/maze-generator.mp4', title: 'Maze Generator' },
     { src: './assets/inventory.mp4', title: 'Draggable Inventory' },
     { src: './assets/cube-climbing.mp4', title: 'Climbing Game' },
 	{ src: './assets/first-person-mechs.mp4', title: 'FP Mechanics' },
